@@ -21,7 +21,6 @@ public class Ex6 {
                 i++;
             }
         }
-
         if (i == arrayFirst.length) {
             for (int k = j; k < arrSecond.length; k++) {
                 arr.add(arrSecond[k]);
