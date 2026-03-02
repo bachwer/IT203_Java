@@ -18,6 +18,17 @@ public class Main {
             menu();
             System.out.print("Enter you Choice: ");
             choice = input.nextLine();
+
+            switch (choice) {
+                case "1" -> inventoryMenu();
+                case "2" -> customerMenu();
+                case "3" -> spaMenu();
+                case "4" -> logMenu();
+                case "0" -> {
+                    System.out.println("Goodbye!");
+
+                }
+            }
         }while(!choice.equals("0"));
 
     }
